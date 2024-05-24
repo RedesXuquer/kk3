@@ -1,5 +1,5 @@
 ---
-title: Instalacion Docker 
+title: Instalación Docker y FreeScout
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: Luis
 date: 2024-05-23 12:00:00 +0800
@@ -14,7 +14,7 @@ image:
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-# Instalacion de Docker y Docker Compose
+# Instalación de Docker y Docker Compose
 Set up Docker's apt repository.
 
 ```
@@ -45,8 +45,8 @@ Verify that the Docker Engine installation is successful by running the hello-wo
 sudo docker run hello-world
 ```
 
-Una vez ya esta instalado Docker vamos apreparar el archivo con nuestra necesidades:
-Se pueden realizar diferentes cambiaos, como por ejemplo puertos y demas, pero el que si que si hay que cambiar es - SITE_URL
+Una vez ya está instalado Docker vamos a preparar el archivo con nuestras necesidades:
+Se pueden realizar diferentes cambios, como por ejemplo puertos y demás, pero el que si que si hay que cambiar es - SITE_URL donde hay que poner nuestra IP
 ```
 vi docker-compose.ym
 ```

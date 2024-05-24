@@ -1,5 +1,5 @@
 ---
-title: Instalacion Docker 
+title: Instalación Docker 
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: Luis
 date: 2024-05-23 12:00:00 +0800
@@ -14,7 +14,7 @@ image:
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-# Instalacion de Docker
+# Instalación de Docker
 Set up Docker's apt repository.
 
 ```
@@ -45,9 +45,9 @@ Verify that the Docker Engine installation is successful by running the hello-wo
 sudo docker run hello-world
 ```
 
-Una vez ya esta instalado Docker instalamos la aplicacion:
+Una vez ya está instalado Docker instalamos la aplicación:
 ```
-docker run --name some-mariadb -e MYSQL_ROOT_PASSWORD=hellodocker -e MYSQL_DATABASE=easyappointments mariadb:latest
+docker run --name some-mariadb -d -e MYSQL_ROOT_PASSWORD=hellodocker -e MYSQL_DATABASE=easyappointments mariadb:latest
 docker run --name some-easyappointments -d --link some-mariadb:db -p 8888:8888 jamrizzi/easyappointments:latest
 ```
 
